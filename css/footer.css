@@ -1,0 +1,15 @@
+@charset "utf-8";
+#footer_copyright {
+	margin:0px auto;
+	background-image: url(../images/footer_bg_copyright.png);
+	background-repeat: repeat;
+	height: 66px;
+	width: 100%;
+}
+#footer_info {
+	margin:0px auto;
+	background-image: url(../images/footer_bg_info.png);
+	background-repeat: repeat;
+	height: 124px;
+	width: 100%;
+}
