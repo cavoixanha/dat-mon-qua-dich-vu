@@ -1,0 +1,115 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	text-align: center;
+	font-size: 14px;
+}
+.canhgiua {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#table_full_page {
+	/*dùng margin: 0px auto; để căn giữa cho table*/
+	width: 100%;
+	margin: 0px auto;
+	border-collapse: collapse;/*Loại khung viền*/
+}
+#wrapper {
+	margin: 0px;
+	min-width: 960px !important;
+}
+#nav_top {
+	background-image: url(../images/nav_top.png);
+	height: 45px;
+	background-repeat: repeat;
+}
+#banner_nhahang {
+	background-image: url(../images/banner_nhahang.jpg);
+	height: 191px;
+	text-align: left;
+}
+#menu_chinh {
+	background-image: url(../images/nav_chinh.png);
+	height: 48px;
+	width: 960px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+}
+#ten_nha_hang {
+	width: 960px;
+}
+#banner_monan {
+	/*	background-image: url(../images/banner_mon_an.jpg);
+	width: 1200px;
+	height: 412px;
+	background-repeat: no-repeat;*/	
+	background-image: url(../images/banner_mon_an.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 412px;
+	background-repeat: no-repeat;
+}
+/*#banner_monan,#ten_nha_hang,#menu_chinh,#banner_nhahang,#nav_top,#wrapper
+{
+	display:block
+}*/
+
+.rounded_corner {
+/*	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width: 200px;
+	height: 20px;
+	background-color: #CCC;*/
+}
+#btntimkiem {
+	background-color: transparent;
+	border-style: none;
+}
+.s960 {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#text_nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #cdcecc;
+	text-align: left;
+	width: 400px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+#text_menu {
+	padding-left: 30px;
+	padding-top: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color: #F00;
+}
+#text_menu_chinh {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	padding-left: 30px;
+	padding-top: 19px;
+	margin-top: 51px;
+	font-size: 14px;
+}
+ul li {
+	float: left;
+}
+ul li a {
+/*display:block;
+	font-size: 32px;
+	padding-left: 15px;
+	text-transform:capitalize;*/
+}
+#text_nav a {
+	text-transform: none;
+	text-decoration: none;
+	color: #CCC;
+}
