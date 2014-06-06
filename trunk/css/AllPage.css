@@ -30,16 +30,6 @@ body {
 	height: 191px;
 	text-align: left;
 }
-#menu_chinh {
-	background-image: url(../images/nav_chinh.png);
-	height: 48px;
-	width: 960px;
-	background-repeat: no-repeat;
-	background-position: 5px 5px;
-}
-#ten_nha_hang {
-	width: 960px;
-}
 #banner_monan {
 	/*	background-image: url(../images/banner_mon_an.jpg);
 	width: 1200px;
@@ -51,21 +41,23 @@ body {
 	height: 412px;
 	background-repeat: no-repeat;
 }
-/*#banner_monan,#ten_nha_hang,#menu_chinh,#banner_nhahang,#nav_top,#wrapper
-{
-	display:block
-}*/
-
 .rounded_corner {
-/*	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	/*	box-shadow: 2px 2px 2px #888888;*/
+	border-radius: 8px;
+	border: 2px solid;
 	width: 200px;
-	height: 20px;
-	background-color: #CCC;*/
+	height: 32px;
+	background-color: #f5f4f5;
 }
 #btntimkiem {
 	background-color: transparent;
-	border-style: none;
+	background-image: url(../images/icon_timkiem.png);
+	height: 56px;
+	width: 75px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
 }
 .s960 {
 	width: 960px;
@@ -84,32 +76,70 @@ body {
 	padding-left: 30px;
 	padding-top: 8px;
 }
-#text_menu {
+#text_nav a {
+	text-decoration: none;
+	color: #CCC;
+}
+#ten_nha_hang {
 	padding-left: 30px;
 	padding-top: 55px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 32px;
 	color: #F00;
+	width: 930px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
 }
-#text_menu_chinh {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #FFF;
-	padding-left: 30px;
-	padding-top: 19px;
-	margin-top: 51px;
-	font-size: 14px;
+#menu_wrapper {
+	background-image: url(../images/menu.png);
+	height: 48px;
+	width: 960px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	margin-top: 52px;
 }
-ul li {
+#menu {
+	margin: 0px;
+}
+#menu li {
 	float: left;
+	list-style: none;
+	position: relative;
 }
-ul li a {
-/*display:block;
-	font-size: 32px;
-	padding-left: 15px;
-	text-transform:capitalize;*/
+#menu>li {
+/*padding-left: 50px;*/
+	/*margin: 5px 0px 0px;*/
 }
-#text_nav a {
-	text-transform: none;
+#menu li a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
 	text-decoration: none;
-	color: #CCC;
+}
+#menu>li>a {
+	margin: 5px 0px 0px;
+	padding: 12px 20px;
+}
+#menu li a:hover {
+	background-image: url(../images/menu_hover.png);
+	background-repeat: repeat;
+}
+#menu .submenu {
+	position: absolute;
+	margin-left: -40px;
+	display: none;
+}
+#menu .submenu li, #menu .submenu a {
+	float: none;
+	background-color: #F60;
+}
+#menu .submenu a {
+	padding: 8px 10px;
+	width: 180px;
+}
+#menu li:hover .submenu {
+	display: block;
 }
