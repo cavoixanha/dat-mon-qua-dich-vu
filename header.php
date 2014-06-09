@@ -27,7 +27,14 @@
 <div id="wrapper">
   <div id="nav_top">
     <div class="s960" >
-      <div id="text_nav" > <a href="index.php">Home</a>&nbsp;&nbsp;<a>About</a>&nbsp;&nbsp;<a>Liên Hệ</a> </div>
+      <div id="text_nav" >
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Liên Hệ</a></li>
+          <li><a href="Login.php">Đăng Nhập</a></li>
+        </ul>
+      </div>
       <div style="float:right;">
         <div style="float:left; padding-top:2px;">
           <input class="rounded_corner" type="text" name="txttimkiem" />
