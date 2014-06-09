@@ -8,9 +8,13 @@
 </head>
 
 <body>
-<div>
-<div id="footer_copyright"></div>
-<div id="footer_info"></div>
+<div id="wrapper">
+  <div id="footer_copyright">
+    <div class="s960">Copy right</div>
+  </div>
+  <div id="footer_info">
+    <div class="s960">Thong tin</div>
+  </div>
 </div>
 </body>
 </html>
