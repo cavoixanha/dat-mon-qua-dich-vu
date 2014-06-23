@@ -1,0 +1,1 @@
+<div id="banner">Trang Quản Trị</div>

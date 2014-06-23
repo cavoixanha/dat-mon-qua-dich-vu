@@ -1,0 +1,164 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#table_full_page {
+	/*dùng margin: 0px auto; để căn giữa cho table*/
+	width: 100%;
+	margin: 0px auto;
+	border-collapse: collapse;/*Loại khung viền*/
+}
+body {
+	text-align: center;
+	font-size: 14px;
+}
+.canhgiua {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.clear_float {
+	float: none;
+}
+#wrapper {
+	margin: 0px;
+	min-width: 960px !important;
+}
+.s960 {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#nav_top {
+	background-image: url(../img/nav_top.png);
+	height: 45px;
+	background-repeat: repeat;
+}
+.rounded_corner {
+	/*	box-shadow: 2px 2px 2px #888888;*/
+	border-radius: 8px;
+	border: 2px solid;
+	width: 200px;
+	height: 32px;
+	background-color: #f5f4f5;
+}
+#btntimkiem {
+	background-color: transparent;
+	background-image: url(../img/icon_timkiem.png);
+	height: 56px;
+	width: 75px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#banner_nhahang {
+	background-image: url(../img/banner_nhahang.jpg);
+/*	background-size:cover;*/
+	height: 191px;
+	text-align: left;
+}
+#banner_monan {
+	/*	background-image: url(../images/banner_mon_an.jpg);
+	width: 1200px;
+	height: 412px;
+	background-repeat: no-repeat;*/	
+	background-image: url(../images/banner_mon_an.jpg);
+	background-size: cover;
+	background-position: center center;
+	height: 412px;
+	background-repeat: no-repeat;
+}
+#text_nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #cdcecc;
+	text-align: left;
+	float: left;
+	padding-top: 8px;
+	margin: 0px;
+}
+#text_nav a {
+	text-decoration: none;
+	color: #CCC;
+}
+#ten_nha_hang {
+	padding-left: 30px;
+	padding-top: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color: #F00;
+	width: 930px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#menu_wrapper {
+	background-image: url(../img/menu.png);
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-top: 49.5px;
+}
+ul#menu{
+	margin-left: 50px;
+}
+ul#menu li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+ul#menu>li {
+	/*padding-left: 50px;*/
+	margin: 0px 0px 0px;
+}
+ul#menu li a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+ul#menu>li>a {
+	/*margin: 5px 0px 0px;*/
+	padding: 14.8px 20px;
+}
+ul#menu li a:hover {
+	background-image: url(../img/menu_hover.png);
+	background-repeat: repeat;
+}
+ul#menu .submenu {
+	position: absolute;
+	margin-left: 0px;
+	display: none;
+}
+ul#menu .submenu li, #menu .submenu a {
+	float: none;
+	background-color: #F60;
+}
+ul#menu .submenu a {
+	padding: 8px 10px;
+	width: 180px;
+}
+ul#menu li:hover .submenu {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 12;
+}
+#text_nav {
+	margin: 0px;
+	float: left;
+}
+#text_nav li {
+	float: left;
+	list-style: none;
+}
+#text_nav li a {
+	float: left;
+	display: block;
+	padding: 0px 15px;
+}
