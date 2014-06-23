@@ -1,0 +1,24 @@
+/* CSS Document */
+.box-mon-an {
+	width: 318px;
+	height: 500px;
+	float: left;
+	border: 1px solid #C7C7C7;
+	margin-top: 2px;
+}
+.img-mon-an {
+	background-image: url(../img/mon_an/%C4%91%C3%B9i-g%C3%A0-s%E1%BB%91t-n%E1%BA%A5m.jpg);
+	background-size: contain;
+	width: 100%;
+	height: 213px;
+}
+.tom-tat-mon-an {
+	width: 320px;
+	font-size: 14px;
+}
+
+.title-mon-an {
+	color: #4A78F0;
+	font-size: 14px;
+	text-transform:capitalize;
+}

@@ -1,6 +1,8 @@
 @charset "utf-8";
-body {
+* {
 	margin: 0px;
+}
+/*#wrapper-footer {
 	text-align: center;
 	color: #FFF;
 }
@@ -13,4 +15,29 @@ body {
 	background-image: url(../images/footer_bg_info.png);
 	background-repeat: repeat;
 	height: 124px;
+}*/
+.footer_top {
+	width: 100%;
+	height: 70px;
+	background-color: #1f1f1f;
+	color: white;
+}
+.footer_bottom {
+	background-color: #2d2d2d;
+	height: 125px;
+	color: white;
+}
+.footer_left {
+	float: left;
+}
+.footer_right {
+	float: right;
+}
+.footer_right li {
+	float: left;
+	margin-left: 30px;
+}
+.footer_right a {
+	text-decoration: none;
+	color: #fff;
 }
