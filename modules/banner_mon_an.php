@@ -16,23 +16,23 @@
           </div>
           <div class="thumbnails">
             <ul>
-              <li> <a href="images/banner/ca-ngu-hau-sua.jpg" title="Món Cá Hồi"></a> <a href="#" target="_blank"></a>
+              <li> <a href="img/banner/ca-ngu-hau-sua.jpg" title="Món Cá Hồi"></a> <a href="#" target="_blank"></a>
                 <div style="left: 626px; top:34px; width:306px;"> <span class="cap-title"> Cá Ngũ Hàu Sữa </span><br />
                   Nhiều chất dinh dưỡng </div>
               </li>
-              <li> <a href="images/banner/mon-hao-sua.jpg" title="nhahang"></a> <a href="#" target="_blank"></a>
+              <li> <a href="img/banner/mon-hao-sua.jpg" title="nhahang"></a> <a href="#" target="_blank"></a>
                 <div style="left:4px; top:34px; width:306px;"> <span class="cap-title">Món Hòa Sữa</span><br />
                   Hòa Sữa Tốt cho sức khỏe </div>
               </li>
-              <li> <a href="images/banner/Ca-tam-an-goi.jpg" title="nhahang"></a> <a href="#" target="_blank"></a>
+              <li> <a href="img/banner/Ca-tam-an-goi.jpg" title="nhahang"></a> <a href="#" target="_blank"></a>
                 <div style="left: 626px; top:34px; width:306px;"> <span class="cap-title">Cá Tằm</span><br />
                   Cá Tằm Ăn Gỏi </div>
               </li>
-              <li> <a href="images/banner/quay-buffet.jpg" title="nhahang"></a> <a href="#" target="_blank"></a>
+              <li> <a href="img/banner/quay-buffet.jpg" title="nhahang"></a> <a href="#" target="_blank"></a>
                 <div style="left:4px; top:34px; width:306px;"> <span class="cap-title">Quầy Buffet</span><br />
                   Món Ăn Phong Phú </div>
               </li>
-              <li> <a href="images/banner/tiec-cuoi.jpg" title="nhahang"></a> <a href="#" target="_blank"></a>
+              <li> <a href="img/banner/tiec-cuoi.jpg" title="nhahang"></a> <a href="#" target="_blank"></a>
                 <div style="left:626px; top:34px; width:306px;"> <span class="cap-title">Tiệc Cưới</span><br />
                   Tiệc Cưới Với Nhiều Thực Đơn Đa Dạng </div>
               </li>
