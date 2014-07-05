@@ -14,9 +14,11 @@
 </head>
 <body>
 <!--<div id="wrapper">-->
+<?php include 'modules/config.php';?>
 <?php include("modules/header.php") ?>
 <?php include("modules/banner_mon_an.php") ?>
 <div class="s960">
+<?php include 'modules/content.php';?>
   <?php 
 	/* $username =  $_POST["username"];
 	$password = $_POST["password"];

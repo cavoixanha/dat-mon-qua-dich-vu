@@ -1,9 +1,9 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <div id="menu">
-	<a href="index.php?quanly=danhmuc&ac=them">
+	<a href="index.php?quanly=nhommonan&ac=them">
 		<div class="box-chucnang">
 			<img src="img/package_add.png" alt="loi">
-			<p>Quản Lý Danh Mục Món Ăn</p>
+			<p>Quản Lý Nhóm Món Ăn</p>
 		</div>
 	</a><a href="index.php?quanly=monan&ac=them">
 		<div class="box-chucnang">
@@ -13,7 +13,7 @@
 	</a> <a href="index.php?quanly=tintuc&ac=them">
 		<div class="box-chucnang">
 			<img src="img/page_white_add.png" alt="loi">
-			<p>Quản Lý Bài Viết</p>
+			<p>Quản Lý Tin Tức</p>
 		</div>
 	</a> <a href="#">
 		<div class="box-chucnang">

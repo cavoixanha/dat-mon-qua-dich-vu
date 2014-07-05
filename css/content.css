@@ -1,4 +1,7 @@
 /* CSS Document */
+#content{
+	min-height: 200px;
+}
 .box-mon-an {
 	width: 318px;
 	height: 500px;
