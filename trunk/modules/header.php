@@ -1,9 +1,9 @@
 <link href="../css/header.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
-	function thongbao()
-	{
-		alert("sss");
-		}
+function thongbao()  
+{
+	alert("sss");
+}
 </script>
 <div id="nav_top">
 	<div class="s960">
@@ -14,12 +14,15 @@
       <li><a href="Login.php">Đăng Nhập</a></li>-->
 		</ul>
 		<div style="float: right;">
-			<div style="float: left; padding-top: 2px;">
-				<input class="rounded_corner" type="text" name="txttimkiem" />
-			</div>
-			<div style="float: left; margin-left: -55px; z-index: 10;">
-				<button id="btntimkiem" type="button" onclick="thongbao()"></button>
-			</div>
+			<form action="index.php?ac=tim" method="post">
+				<div style="float: left; padding-top: 2px;">
+					<input class="rounded_corner" type="text" name="txttim" />
+				</div>
+				<div style="float: left; margin-left: -55px; z-index: 10;">
+					<button id="btntimkiem" type="submit"></button>
+					<!-- onclick="thongbao()" -->
+				</div>
+			</form>
 		</div>
 	</div>
 </div>

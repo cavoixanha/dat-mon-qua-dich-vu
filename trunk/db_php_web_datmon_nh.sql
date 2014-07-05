@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 23, 2014 at 01:12 PM
+-- Generation Time: Jul 05, 2014 at 04:05 PM
 -- Server version: 5.5.34
 -- PHP Version: 5.4.22
 
@@ -73,12 +73,22 @@ CREATE TABLE IF NOT EXISTS `tbl_loai_ban` (
 CREATE TABLE IF NOT EXISTS `tbl_mon_an` (
   `id_mon_an` int(11) NOT NULL AUTO_INCREMENT,
   `ten_mon` varchar(50) NOT NULL,
+  `hinhanh` varchar(100) NOT NULL,
+  `thong_tin` text NOT NULL,
   `don_gia` float NOT NULL,
-  `DVT` varchar(10) NOT NULL,
   `id_nhom_mon_an` int(11) NOT NULL,
   PRIMARY KEY (`id_mon_an`),
   KEY `id_nhom_mon_an` (`id_nhom_mon_an`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+
+--
+-- Dumping data for table `tbl_mon_an`
+--
+
+INSERT INTO `tbl_mon_an` (`id_mon_an`, `ten_mon`, `hinhanh`, `thong_tin`, `don_gia`, `id_nhom_mon_an`) VALUES
+(1, 'Lẩu', 'img/mon_an/dui-ga-sot-nam.jpg', '', 350000, 1),
+(2, 'Thịt Quay Sốt Me', 'img/mon_an/thit-quay-sot-me.jpg', '', 200000, 2),
+(3, 'Đùi Gà Sốt Mắn', 'img/mon_an/thit-quay-sot-me.jpg', '', 200000, 2);
 
 -- --------------------------------------------------------
 
@@ -90,14 +100,15 @@ CREATE TABLE IF NOT EXISTS `tbl_nhom_mon_an` (
   `id_nhom` int(11) NOT NULL AUTO_INCREMENT,
   `ten_nhom` varchar(50) NOT NULL,
   PRIMARY KEY (`id_nhom`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `tbl_nhom_mon_an`
 --
 
 INSERT INTO `tbl_nhom_mon_an` (`id_nhom`, `ten_nhom`) VALUES
-(1, 'Lẩu');
+(1, 'Lẩu'),
+(2, 'Nướng');
 
 -- --------------------------------------------------------
 
@@ -147,7 +158,7 @@ CREATE TABLE IF NOT EXISTS `tbl_tintuc` (
   `trangthai` tinyint(1) NOT NULL,
   `thutu` int(11) NOT NULL,
   PRIMARY KEY (`id_TinTuc`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
 
 --
 -- Dumping data for table `tbl_tintuc`
@@ -157,7 +168,7 @@ INSERT INTO `tbl_tintuc` (`id_TinTuc`, `TenTinTuc`, `anhminhhoa`, `trangthai`, `
 (1, 'Thủ Thuật nấu ăn hay', 'img/mon_an/dui-ga-sot-nam.jpg', 1, 1),
 (6, 'Món Ăn', '../img/mon_an/plugin_add.png', 0, 1),
 (7, 'Tin Thời Sự', '../img/anhminhhoa.jpg', 1, 2),
-(8, 'Bí Quyết Nấu Ăn', '../img/anhminhhoa.jpg', 0, 3);
+(8, 'Bí Quyết Nấu Ăn', '../img/anhminhhoa.jpg', 1, 3);
 
 --
 -- Constraints for dumped tables

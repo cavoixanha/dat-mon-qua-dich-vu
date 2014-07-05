@@ -1,37 +1,39 @@
-<div id="left-content">
-  <table width="100%" border="0" style="text-align:center;text-transform:capitalize">
-    <tr>
-      <td colspan="2">Thêm Tin Tức</td>
-    </tr>
-    <tr>
-      <td width="21%">Tên Tin Tức</td>
-      <td width="79%"><label for="tentinhtuc"></label>
-      <input type="text" name="tentinhtuc" id="tentinhtuc"></td>
-    </tr>
-    <tr>
-      <td>ảnh minh họa</td>
-      <td><label for="anhminhhoa"></label>
-      <input type="text" name="anhminhhoa" id="anhminhhoa"></td>
-    </tr>
-    <tr>
-      <td>trạng thái </td>
-      <td><label for="trangthai"></label>
-        <select name="trangthai" id="trangthai">
-          <option value="1" selected="selected">Hiển Thị</option>
-          <option value="0">Không Hiển Thị</option>
-      </select></td>
-    </tr>
-    <tr>
-      <td>thứ tự</td>
-      <td><select name="thututintuc" id="thututintuc">
-        <option value="1">Đầu</option>
-        <option value="2">Giữa </option>
-        <option value="3">Cuối</option>
-      </select></td>
-    </tr>
-    <tr>
-      <td colspan="2"><input name="OK" type="submit" id="OK" value="Thêm">
-      <input type="reset" name="clear" id="clear" value="Reset"></td>
-    </tr>
-  </table>
-</div>
+<form action="modules/monan/xuly.php" method="post">
+	<div id="left-content">
+		<table width="100%" border="0"
+			style="padding-left: 20px; text-transform: capitalize">
+			<tr>
+				<td height="55" colspan="2" align="center" style="text-transform: capitalize; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold;">Thêm Món Ăn</td>
+			</tr>
+			<tr>
+				<td width="46%">Tên Món Ăn</td>
+				<td width="54%"><label for="tenmonan"></label> <input type="text"
+					name="tenmonan" id="tenmonan"></td>
+			</tr>
+			<tr>
+				<td>Đơn Giá</td>
+				<td><label for="dongia"></label> <input type="text" name="dongia"
+					id="dongia"></td>
+			</tr>
+			<tr>
+				<td>DVT</td>
+				<td><label for="dvt"></label> <input type="text" name="dvt" id="dvt"></td>
+			</tr>
+			<tr>
+			
+			
+			<tr>
+				<td>Nhóm Món Ăn</td>
+				<td><label for="nhommonan"></label> <input type="text"
+					name="nhommonan" id="nhommonan"></td>
+			</tr>
+			<tr>
+			
+			
+			<tr>
+				<td colspan="2"><input name="OK" type="submit" id="OK" value="Thêm">
+					<input type="reset" name="clear" id="clear" value="Reset"></td>
+			</tr>
+		</table>
+	</div>
+</form>
