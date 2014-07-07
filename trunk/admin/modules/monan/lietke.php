@@ -4,8 +4,9 @@
       <th width="8%"><div align="center">STT</div></th>
       <th width="9%">Mã Món</th>
       <th width="22%">Tên Món</th>
+      <th width="10%">Hình Ảnh</th>
+      <th width="9%">Thông Tin</th>
       <th width="10%">Đơn Giá</th>
-      <th width="9%">DVT</th>
       <th width="10%">Nhóm Món</th>
       <th colspan="2"><a href="index.php?quanly=danhmuc&ac=them">Thêm</a></th>
     </tr>
@@ -36,8 +37,10 @@
       <td><div align="center"><?php echo $i; ?></div></td>
       <td><?php echo $row["id_mon_an"] ?></td>
       <td><?php echo $row["ten_mon"] ?></td>
+      <td><?php echo $row["hinhanh"] ?></td>
+      <td><?php echo $row["thongtin"] ?></td>
       <td><?php echo $row["don_gia"] ?></td>
-      <td><?php echo $row["DVT"] ?></td>
+
       <?php 
       	
       	$r = mysql_fetch_array(mysql_db_query($database_name, "Select * from tbl_nhom_mon_an where id_nhom =".$row["id_nhom_mon_an"]));

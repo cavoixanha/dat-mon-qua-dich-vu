@@ -1,4 +1,14 @@
 <div class="right-content">
+<?php 
+	if (isset($_GET['page'])) {
+		$page = $_GET['page'];
+	}else {
+		$page = 1;
+	}
+	$start_from = ($page-1)*6;
+	$query = "SELECT * FROM `tbl_tintuc` ORDER BY id_TinTuc ASC LIMIT $start_from, 6";
+	$rows = mysql_db_query ( "db_php_web_datmon_nh", $query );
+?>
 	<table width="100%" border="1" style="border-collapse: collapse;">
 		<tr>
 			<th width="8%"><div align="center">STT</div></th>
@@ -10,8 +20,6 @@
 			<th colspan="2"><a href="index.php?quanly=tintuc&ac=them">Thêm</a></th>
 		</tr>
     <?php
-	$query = "SELECT * FROM `tbl_tintuc`";
-	$rows = mysql_db_query ( "db_php_web_datmon_nh", $query );
 	if (! $rows) {
 		echo 'Lỗi SQL: ' . mysql_error ();
 		echo "\r\n<br />";
@@ -45,4 +53,19 @@
 	}
 	?>
   </table>
+  <div style="text-align: center;margin-top: 20px;">
+  <?php 
+  //link so trang
+  $sqlsotrang = "SELECT COUNT(id_TinTuc) FROM tbl_tintuc";
+  $rs_result = mysql_db_query("db_php_web_datmon_nh", $sqlsotrang);
+  $row = mysql_fetch_row($rs_result);
+  $total_records = $row[0];
+//   $total_records = mysql_num_rows($rs_result);
+  $total_page = ceil($total_records/6);
+  
+  for ($i = 1; $i <= $total_page; $i++) {
+  	echo "<a href=index.php?quanly=tintuc&ac=them&page=$i>".$i."</a> ";
+  }
+  ?>
+  </div>
 </div>
