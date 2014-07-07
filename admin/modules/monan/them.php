@@ -28,8 +28,6 @@
 					name="nhommonan" id="nhommonan"></td>
 			</tr>
 			<tr>
-			
-			
 			<tr>
 				<td colspan="2"><input name="OK" type="submit" id="OK" value="Thêm">
 					<input type="reset" name="clear" id="clear" value="Reset"></td>
